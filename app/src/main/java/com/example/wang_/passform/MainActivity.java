@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 int id = Integer.parseInt(id_string);
                 String age_string = age_txt.getText().toString();
                 int age = Integer.parseInt(age_string);
-                String name = name_txt.getText().toString();
+                String name = name_txt.getText().toString();//dsgfhf
 
                 MyForm mf = new MyForm(id, age, name);
 
